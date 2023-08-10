@@ -32,7 +32,7 @@ const getData = async(message) =>{
     //API CALL
        console.log("fetching")
 
-        await fetch("http://localhost:5000/api", {
+        await fetch("https://chatappbackend-vzkx.onrender.com/api", {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
